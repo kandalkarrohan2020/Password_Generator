@@ -1,0 +1,176 @@
+.App{
+  width: 400px;
+  height: 350px;
+  background-color: blue;
+  border: 2.5px solid white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0px;
+}
+
+.Input{
+  width: 90%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:  rgb(9, 9, 81);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  
+  
+}
+
+input{
+  width: 80%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px 0px 0px 20px;
+  font-size: 18px;
+  padding-left: 20px;
+  outline: none;
+  color: aliceblue;
+  
+}
+
+.Input button {
+  width: 20%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  outline: none;
+  border-radius: 0px 17px 17px 0px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 1px;
+}
+
+.Input button:hover {
+  font-size: 16.5px;
+  cursor: pointer;
+}
+
+.Input button:active {
+  font-size: 16px;
+  
+}
+
+.Name {
+  width: 80%;
+  height: 40px;
+  background-color:  rgb(9, 9, 81);
+  border: 1.3px solid white;
+  border-radius: 20px 20px 20px 20px;
+  padding-left: 20px;
+  outline: none;
+  color: aliceblue;
+}
+
+.Name input{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px 0px 0px 20px;
+  font-size: 15px;
+  padding-left: 10px;
+  outline: none;
+  color: aliceblue;
+  
+}
+.Name input::placeholder {
+  color: rgb(225, 225, 225);
+}
+
+.Select-Items {
+  width: 80%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row;
+  gap: 4%;
+}
+
+.Numbers {
+  width: 45%;
+  height: 40px;
+  background-color:  rgb(9, 9, 81);
+  border: 1.3px solid white;
+  border-radius: 20px 20px 20px 20px;
+  padding: 0px 20px;
+  outline: none;
+  color: rgb(225, 225, 225);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Characters {
+  width: 51%;
+  height: 40px;
+  background-color:  rgb(9, 9, 81);
+  border: 1.3px solid white;
+  border-radius: 20px 20px 20px 20px;
+  padding: 0px 20px;
+  outline: none;
+  color: rgb(225, 225, 225);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.check {
+  
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+
+}
+
+.Range {
+  width: 80%;
+  height: 40px;
+  background-color:  rgb(9, 9, 81);
+  border: 1.3px solid white;
+  border-radius: 20px 20px 20px 20px;
+  outline: none;
+  color: rgb(255, 255, 241);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4%;
+  font-size: 16px;
+}
+
+.range {
+  padding: 0;
+}
+
+
+button {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:  rgb(255, 200, 0);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+button:hover {
+  font-size: 14.5px;
+}
+button:active {
+  font-size: 14px;
+  background-color:  rgb(240, 188, 0);
+}
+
