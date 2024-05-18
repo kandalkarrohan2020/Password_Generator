@@ -174,3 +174,8 @@ button:active {
   background-color:  rgb(240, 188, 0);
 }
 
+@media only screen and (max-width: 500px) {
+  .App {
+    width: 350px;
+  }
+}

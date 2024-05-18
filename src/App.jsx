@@ -1,4 +1,4 @@
-import { useState,useCallback, useEffect} from 'react'
+import { useState,useCallback} from 'react'
 
 import './App.css'
 
@@ -14,13 +14,9 @@ function App() {
   let number = "0123456789";
   let character = "!@#$%&*:><?";
  
-  
-
-
   let upadatePassword = useCallback(() => {
     setPassword(password = "");
     let demoPassword = "";
-    
     if(range != 0){
       if(numbers == true){
         str += number;
@@ -42,10 +38,9 @@ function App() {
 
   },[range,numbers,characters,name]);
     
-   let copy = (event)=>{
+  let copy = (event)=>{
     if(password != ""){
       window.navigator.clipboard.writeText(password);
-     
       alert("Password Copied Succesfully");
     }
     
