@@ -124,6 +124,7 @@ input{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 .check {
@@ -177,5 +178,24 @@ button:active {
 @media only screen and (max-width: 500px) {
   .App {
     width: 350px;
+  }
+  .Numbers, .Characters{
+    font-size: 15px;
+    padding: 0px 15px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .App {
+    width: 260px;
+  }
+  .Numbers, .Characters{
+    font-size: 10px;
+    padding: 0px 12px;
+    
+  }
+  .Input button {
+    font-size: 15px;
+    width: 25%;
   }
 }
